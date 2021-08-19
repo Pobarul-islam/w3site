@@ -1,0 +1,378 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	box-sizing: border-box;
+	position:relative;
+}
+
+/* ============== HTML ============== */
+
+.first{
+	position:relative;
+	background: #282A35;
+	color: white;
+	height: 80vh;
+}
+.html h1{
+	position:absolute;
+	left: 15.5rem;
+	top: 3rem;
+	font-size: 80px;
+}
+
+.plearn{
+	position:absolute;
+	left: 10rem;;
+	top: 9rem;
+	font-weight: bold;
+	
+}
+
+.learnhtml{
+	position:absolute;
+	top: 12rem;
+	left: 17.5rem;
+	border: 1px solid #059862;
+	display:table;
+	background: #059862;
+	font-size: 20px;
+	font-weight: 600;
+	padding: 10px;
+	border-radius: 20px;
+	text-align: center;
+	margin-left:5px;;
+	margin-left: 6px;
+	cursor: pointer;
+}
+
+.learnhtml:hover{
+	background:green;
+	transition: 1s;
+}
+
+.newvideo{
+	position:absolute;
+	top: 22rem;
+	left: 16.5rem;
+	border: 1px solid #059862;
+	display:table;
+	background: #FFF080;
+	color: black;
+	font-weight: 600;
+	font-size: 20px;
+	padding: 10px;
+	border-radius: 20px;
+	text-align: center;
+	cursor: pointer;
+
+	
+}
+
+.newvideo:hover{
+	background:tomato;
+	transition: 1s;
+}
+
+.htmlref{
+		position:relative;
+	top: 17rem;
+	left: 17rem;
+	border: 1px solid #059862;
+	display:table;
+	background:#E7E9EB;
+	font-weight: 600;
+	color: black;
+	font-size: 20px;
+	padding: 10px;
+	border-radius: 20px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.htmlref:hover{
+	background:gold;
+	transition: 1s;
+}
+.exampleimg{
+	position: absolute;
+	left: 45rem;
+}
+.btn1{
+	position: absolute;
+	background: #059862;
+	padding: 4px;
+	top: 21rem;
+	border-radius: 10px;
+	left: 48.9rem;
+	display: inline-block;
+	cursor: pointer;
+}
+
+/* ============== CSS ============== */
+
+.two{
+	position:relative;
+	background: #D9EEE1;
+	color: white;
+	height: 75vh;
+}
+.css h1{
+	position:absolute;
+	left: 15.5rem;
+	top: 3rem;
+	font-size: 80px;
+	color: #000;
+}
+
+.plearn2{
+	position:absolute;
+	left: 10rem;;
+	top: 9rem;
+	font-weight: bold;
+	color:#000;
+	
+}
+
+.learncss{
+	position:absolute;
+	top: 12rem;
+	left: 17.5rem;
+	border: 1px solid #059862;
+	display:table;
+	background: #059862;
+	font-size: 20px;
+	font-weight: 600;
+	padding: 10px;
+	border-radius: 20px;
+	text-align: center;
+	margin-left:5px;;
+	margin-left: 6px;
+	cursor: pointer;
+}
+
+.learncss:hover{
+	background:green;
+	transition: 1s;
+}
+
+.cssref{
+	position:absolute;
+	top: 17rem;
+	left: 16.5rem;
+	border: 1px solid #059862;
+	display:table;
+	background: #000;;
+	color: #fff;
+	font-weight: 600;
+	font-size: 20px;
+	padding: 10px;
+	border-radius: 20px;
+	text-align: center;
+	cursor: pointer;
+
+	
+}
+
+.cssref:hover{
+	background:tomato;
+	transition: 1s;
+}
+
+
+}
+.cssimg img{
+	position:absolute;
+	top: 4rem;
+	left: 40rem;
+	
+	
+}
+.btn2{
+	position: absolute;
+	background: #059862;
+	padding: 5px;
+	top: 18rem;
+	border-radius: 10px;
+	left: 48.7rem;
+	display: inline-block;
+	cursor: pointer;
+}
+
+/* ============== Java script ============== */
+
+.Three{
+	position:relative;
+	background: #FFF4A3;
+	color: white;
+	height: 75vh;
+}
+.javas h1{
+	position:absolute;
+	left: 10rem;
+	top: 3rem;
+	font-size: 80px;
+	color: #000;
+}
+
+.plearn3{
+	position:absolute;
+	left: 11rem;;
+	top: 9rem;
+	font-weight: bold;
+	color:#000;
+	
+}
+
+.learnjs{
+	position:absolute;
+	top: 12rem;
+	left: 17.5rem;
+	border: 1px solid #059862;
+	display:table;
+	background: #059862;
+	font-size: 20px;
+	font-weight: 600;
+	padding: 10px;
+	border-radius: 20px;
+	text-align: center;
+	margin-left:5px;;
+	margin-left: 6px;
+	cursor: pointer;
+}
+
+.learnjs:hover{
+	background:green;
+	transition: 1s;
+}
+
+.jsref{
+	position:absolute;
+	top: 17rem;
+	left: 16.5rem;
+	border: 1px solid #059862;
+	display:table;
+	background: #000;;
+	color: #fff;
+	font-weight: 600;
+	font-size: 20px;
+	padding: 10px;
+	border-radius: 20px;
+	text-align: center;
+	cursor: pointer;
+
+	
+}
+
+.jsref:hover{
+	background:tomato;
+	transition: 1s;
+}
+
+
+}
+.cssimg img{
+	position:absolute
+	top: 4rem;
+	left: 40rem;		
+}
+
+.btn3{
+	position: absolute;
+	background: #059862;
+	padding: 5px;
+	top: 19.5rem;
+	border-radius: 10px;
+	left: 48.6rem;
+	display: inline-block;
+	cursor: pointer;
+}
+
+/* ============== PYTHON ============== */
+
+.four{
+	position:relative;
+	background: ##282A35ew;
+	color: white;
+	height: 75vh;
+}
+.python h1{
+	position:absolute;
+	left: 10rem;
+	top: 3rem;
+	font-size: 80px;
+	color: #000;
+}
+
+.plearn4{
+	position:absolute;
+	left: 11rem;;
+	top: 9rem;
+	font-weight: bold;
+	color:#000;
+	
+}
+
+.learnpy{
+	position:absolute;
+	top: 12rem;
+	left: 17.5rem;
+	border: 1px solid #059862;
+	display:table;
+	background: #059862;
+	font-size: 20px;
+	font-weight: 600;
+	padding: 10px;
+	border-radius: 20px;
+	text-align: center;
+	margin-left:5px;;
+	margin-left: 6px;
+	cursor: pointer;
+}
+
+.learnpy:hover{
+	background:green;
+	transition: 1s;
+}
+
+.pyref{
+	position:absolute;
+	top: 17rem;
+	left: 16.5rem;
+	border: 1px solid #059862;
+	display:table;
+	background: #000;;
+	color: #fff;
+	font-weight: 600;
+	font-size: 20px;
+	padding: 10px;
+	border-radius: 20px;
+	text-align: center;
+	cursor: pointer;
+
+	
+}
+
+.pyref:hover{
+	background:tomato;
+	transition: 1s;
+}
+
+
+}
+.cssimg img{
+	position:absolute
+	top: 4rem;
+	left: 40rem;		
+}
+
+.btn4{
+	position: absolute;
+	background: #059862;
+	padding: 5px;
+	top: 19.5rem;
+	border-radius: 10px;
+	left: 48.6rem;
+	display: inline-block;
+	cursor: pointer;
+}
