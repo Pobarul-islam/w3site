@@ -94,15 +94,16 @@
 	background:gold;
 	transition: 1s;
 }
-.exampleimg{
+.htmlimg img{
 	position: absolute;
 	left: 45rem;
+	top: 2rem;
 }
 .btn1{
 	position: absolute;
 	background: #059862;
 	padding: 4px;
-	top: 21rem;
+	top: 23rem;
 	border-radius: 10px;
 	left: 48.9rem;
 	display: inline-block;
@@ -181,8 +182,8 @@
 
 
 }
-.cssimg img{
-	position:absolute;
+.htmlimg img{
+	position:relative;
 	top: 4rem;
 	left: 40rem;
 	
@@ -192,7 +193,7 @@
 	position: absolute;
 	background: #059862;
 	padding: 5px;
-	top: 18rem;
+	top: 20rem;
 	border-radius: 10px;
 	left: 48.7rem;
 	display: inline-block;
@@ -271,7 +272,7 @@
 
 
 }
-.cssimg img{
+.htmlimg img{
 	position:absolute
 	top: 4rem;
 	left: 40rem;		
@@ -281,7 +282,7 @@
 	position: absolute;
 	background: #059862;
 	padding: 5px;
-	top: 19.5rem;
+	top: 21.5rem;
 	border-radius: 10px;
 	left: 48.6rem;
 	display: inline-block;
@@ -292,16 +293,16 @@
 
 .four{
 	position:relative;
-	background: ##282A35ew;
+	background-color: #282A35;
 	color: white;
 	height: 75vh;
 }
 .python h1{
 	position:absolute;
-	left: 10rem;
+	left: 13rem;
 	top: 3rem;
 	font-size: 80px;
-	color: #000;
+	color: #fff;
 }
 
 .plearn4{
@@ -309,14 +310,14 @@
 	left: 11rem;;
 	top: 9rem;
 	font-weight: bold;
-	color:#000;
+	color:#fff;
 	
 }
 
 .learnpy{
 	position:absolute;
 	top: 12rem;
-	left: 17.5rem;
+	left: 17rem;
 	border: 1px solid #059862;
 	display:table;
 	background: #059862;
@@ -341,8 +342,8 @@
 	left: 16.5rem;
 	border: 1px solid #059862;
 	display:table;
-	background: #000;;
-	color: #fff;
+	background: #fff;
+	color: #000;
 	font-weight: 600;
 	font-size: 20px;
 	padding: 10px;
@@ -360,9 +361,9 @@
 
 
 }
-.cssimg img{
+.htmlimg img{
 	position:absolute
-	top: 4rem;
+	top: 6rem;
 	left: 40rem;		
 }
 
@@ -372,7 +373,98 @@
 	padding: 5px;
 	top: 19.5rem;
 	border-radius: 10px;
-	left: 48.6rem;
+	left: 48.8rem;
+	display: inline-block;
+	cursor: pointer;
+}
+
+
+
+/* ============== SQL ============== */
+
+.five{
+	position:relative;
+	background-color:#FFFFFF;
+	color: white;
+	height: 75vh;
+}
+.sql h1{
+	position:absolute;
+	left: 17rem;
+	top: 3rem;
+	font-size: 80px;
+	color: #000;
+}
+
+.plearn5{
+	position:absolute;
+	left: 11rem;;
+	top: 9rem;
+	font-weight: bold;
+	color:#000;
+	
+}
+
+.learnsql{
+	position:absolute;
+	top: 12rem;
+	left: 17rem;
+	border: 1px solid #059862;
+	display:table;
+	background: #059862;
+	font-size: 20px;
+	font-weight: 600;
+	padding: 10px;
+	border-radius: 20px;
+	text-align: center;
+	margin-left:5px;;
+	margin-left: 6px;
+	cursor: pointer;
+}
+
+.learnsql:hover{
+	background:green;
+	transition: 1s;
+}
+
+.sqlref{
+	position:absolute;
+	top: 17rem;
+	left: 16.5rem;
+	border: 1px solid #059862;
+	display:table;
+	background:#000000;
+	color: #ffffff;
+	font-weight: 600;
+	font-size: 20px;
+	padding: 10px;
+	border-radius: 20px;
+	text-align: center;
+	cursor: pointer;
+
+	
+}
+
+.sqlref:hover{
+	background:tomato;
+	transition: 1s;
+}
+
+
+}
+.htmlimg img{
+	position:absolute
+	top: 6rem;
+	left: 40rem;		
+}
+
+.btn5{
+	position: absolute;
+	background: #059862;
+	padding: 5px;
+	top: 19.2rem;
+	border-radius: 10px;
+	left: 48.8rem;
 	display: inline-block;
 	cursor: pointer;
 }
